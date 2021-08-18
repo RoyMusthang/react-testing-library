@@ -216,8 +216,6 @@ Observe que nem todos os testes são contemplados em sua totalidade pelo avaliad
 
 ### 2. Teste o componente `<About.js />.`
 
-  - Teste se a página contém as informações sobre a Pokédex.
-
   - Teste se a página contém um heading `h2` com o texto `About Pokédex`.
 
   - Teste se a página contém dois parágrafos com texto sobre a Pokédex.
