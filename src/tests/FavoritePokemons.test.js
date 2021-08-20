@@ -40,7 +40,7 @@ describe('Testa FavoritePokemons', () => {
     expect(pokeNotFound).toBeInTheDocument();
   });
 
- it('Testa se são exibidos todos os cards de pokemons favoritados', () => {
+  it('Testa se são exibidos todos os cards de pokemons favoritados', () => {
     renderWithRouter(<FavoritePokemons pokemons={ mockMyFavoritePokemon } />);
     const charmander = screen.getByText('Charmander');
     expect(charmander).toBeInTheDocument();
