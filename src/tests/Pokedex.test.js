@@ -13,7 +13,7 @@ describe('Testa o component Pokedex', () => {
     expect(h2).toBeDefined();
   });
 
- it('Testa se é exibido o próximo Pokémon da lista', () => {
+  it('Testa se é exibido o próximo Pokémon da lista', () => {
     const buttonNext = screen.getByRole('button', { name: /Próximo pokémon/i });
     expect(buttonNext).toBeDefined();
 
