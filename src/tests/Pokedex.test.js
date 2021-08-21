@@ -31,8 +31,8 @@ describe('Testa o component Pokedex', () => {
   });
 
   it('Testa se a Pokédex possui os botões de filtro', () => {
-    const typePokemon = pokemons.map((pokemon) => pokemon.type);
-    const types = typePokemon.filter((type, index) => typePokemon.indexOf(type) === index);
+    const typePoke = pokemons.map((pokemon) => pokemon.type);
+    const types = typePoke.filter((type, index) => typePoke.indexOf(type) === index);
 
     const allBtn = screen.getByRole('button', { name: /All/i });
     expect(allBtn).toBeDefined();
