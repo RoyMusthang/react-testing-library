@@ -6,7 +6,7 @@ import App from '../App';
 import pokemons from '../data';
 
 describe('Testa o component Pokemon', () => {
-  it('Testa se um card de pokemon com as informções corretas é renderizado', () => {
+  it('Testa se um card de pokemon com as informações corretas é renderizado', () => {
     renderWithRouter(<App />);
     const nextPk = screen.getByRole('button', { name: /Próximo pokémon/i });
     pokemons.forEach((pk) => {

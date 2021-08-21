@@ -8,7 +8,7 @@ const renderWithRouter = (component) => {
   return ({
     ...render(
     <Router history={ history }>
-        { component }
+      { component }
     </Router>), history,
   });
 };
